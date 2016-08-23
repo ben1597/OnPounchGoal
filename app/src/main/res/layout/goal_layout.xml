@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_goal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:animateLayoutChanges="true"
+    android:padding="10dp"
+    android:background="@color/IndianRed">
+    <ImageView
+        android:id="@+id/iv_edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/edit"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tv_goal_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="仰臥起坐" />
+
+    <TextView
+        android:id="@+id/tv_goal_num"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="100" />
+
+    <TextView
+        android:id="@+id/tv_goal_unit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="下" />
+    <ImageView
+        android:id="@+id/iv_complete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/complete"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/iv_imporve"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/muscle"
+        android:visibility="gone"/>
+</LinearLayout>
+
