@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu" android:icon="@android:drawable/ic_menu_camera"
+            android:title="首頁" />
+        <item android:icon="@android:drawable/ic_menu_gallery"
+            android:title="訓練項目" />
+        <item android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="訓練圖表" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="分享" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="關於我" />
+        </menu>
+    </item>
+</menu>
